@@ -22,6 +22,18 @@ commands:
     description: Teleport to one of your homes
     usage: /home [name]
     aliases: [tphome]
+  tpa:
+    description: Request to teleport to another player
+    usage: /tpa <player>
+    aliases: [tpa]
+  tpahere:
+    description: Request another player to teleport to you
+    usage: /tpahere <player>
+    aliases: [tpahere]
+  pandorhomes:
+    description: Main command for PandorHomes
+    usage: /pandorhomes reload
+    aliases: [pandorhomes reload]
 
 permissions:
   pandorhomes.sethome:
