@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/META-INF/maven/com.pandor.homes/PandorHomes/PandorHomes.iml" filepath="$PROJECT_DIR$/META-INF/maven/com.pandor.homes/PandorHomes/PandorHomes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/PandorHomes-1.0.0.zip.iml" filepath="$PROJECT_DIR$/.idea/PandorHomes-1.0.0.zip.iml" />
+    </modules>
+  </component>
+</project>
