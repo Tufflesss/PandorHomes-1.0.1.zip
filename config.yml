@@ -1,0 +1,37 @@
+# PandorHomes Configuration (Axolotl Edition)
+# Compatible with Minecraft versions 1.21.1-1.21.4
+
+# Maximum number of homes a player can have
+# Players with the pandorhomes.bypass.maxhomes permission will be able to have unlimited homes
+max-homes: 5
+
+# Teleport settings
+teleport:
+  # Delay in seconds before teleporting to a home
+  delay: 3
+  # Whether to cancel teleport when player moves
+  cancel-on-move: true
+
+# Axolotl effect settings
+axolotl-effects:
+  # Whether to enable the axolotl-themed particles and sounds
+  enabled: false
+  # Whether to spawn temporary axolotls at destination
+  spawn-axolotls: false
+  # Duration in seconds that temporary axolotls remain before despawning
+  axolotl-duration: 0
+  # Particle count for effects (higher values may impact performance)
+  particle-density: 0
+
+# Messages
+messages:
+  prefix: "&8[&bPandorHomes&8] &r"
+  reload: "&aConfiguration reloaded!"
+  # Axolotl-themed messages can be customized here
+  teleport-preparing: "&bPreparing your teleport to '%home%' in %delay% seconds..."
+  teleport-complete: "&bTeleported you to '%home%'!"
+  teleport-cancelled: "&cTeleport cancelled because you moved!"
+  home-set: "&bMarked this location as your home '%home%'!"
+  home-deleted: "&bYou've deleted your home '%home%'!"
+  no-homes: "&bYou have no homes set yet!"
+  homes-header: "&bCurrent Homes:"

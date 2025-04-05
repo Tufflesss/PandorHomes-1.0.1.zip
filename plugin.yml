@@ -1,0 +1,50 @@
+name: PandorHomes
+version: 1.0.1
+main: com.pandor.homes.PandorHomes
+api-version: '1.21'
+load: POSTWORLD
+description: Home management plugin Spigot/Paper servers (1.21.1-1.21.4)
+author: Tuffles
+commands:
+  sethome:
+    description: Set a home at your current location
+    usage: /sethome [name]
+    aliases: [createhome, addhome]
+  delhome:
+    description: Delete one of your homes
+    usage: /delhome <name>
+    aliases: [removehome, deletehome]
+  homes:
+    description: List all of your homes
+    usage: /homes
+    aliases: [listhomes]
+  home:
+    description: Teleport to one of your homes
+    usage: /home [name]
+    aliases: [tphome]
+
+permissions:
+  pandorhomes.sethome:
+    description: Allows setting a home
+    default: true
+  pandorhomes.delhome:
+    description: Allows deleting a home
+    default: true
+  pandorhomes.homes:
+    description: Allows viewing the list of homes
+    default: true
+  pandorhomes.home:
+    description: Allows teleporting to a home
+    default: true
+  pandorhomes.bypass.maxhomes:
+    description: Bypasses the maximum home limit
+    default: op
+  pandorhomes.*:
+    description: Gives all PandorHomes permissions
+    default: op
+    children:
+      pandorhomes.sethome: true
+      pandorhomes.delhome: true
+      pandorhomes.homes: true
+      pandorhomes.home: true
+      pandorhomes.bypass.maxhomes: true
